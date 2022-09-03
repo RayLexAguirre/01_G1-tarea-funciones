@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Convertir kilos a libras",
+      "setup": "npm install",
+      "run": "npm run test convertirLibras.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Convertir celcius a fahrenheit",
+      "setup": "",
+      "run": "npm run test convertirFahrenheit.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Calcular costo total",
+      "setup": "",
+      "run": "npm run test calcularCostoTotal.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "Calcular precio combustible",
+      "setup": "",
+      "run": "npm run test calcularPrecioCombustible.test.js",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
